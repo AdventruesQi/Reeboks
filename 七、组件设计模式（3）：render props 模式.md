@@ -76,7 +76,7 @@ const Login = (props) => {
 ```
 
 - 首先要清楚的一个事情就是props.children指的是被当前这个组件包裹的内部所有的东东；
-- 所以呢，这里面指的props.children指的就是花括号"{}"里面的函数，`userName实际上就是传递过来的allProps`
+- 所以呢，这里面指的props.children指的就是花括号"{}"里面的函数，`userName实际上就是传递过来的allProps中的userName，这里是通过es6解构赋值`
 
 
 
